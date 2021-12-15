@@ -1,0 +1,41 @@
+/* Add application styles & imports to this file! */
+body{
+  margin: 0;
+  padding: 0;
+  font-family:  sans-serif;
+  background: url(https://qph.fs.quoracdn.net/main-qimg-51e7d62ec75224aa0d90cebfedbfb035) no-repeat;
+  background-size: 100%;
+  left:100%;
+  right: 100%;
+}
+.login-box{
+  width:550px;
+  position: absolute;
+  top:90%;
+  bottom: 60%;
+  left:55%;
+  transform:translate(-50%,-50%);
+  colour:white;
+}
+.login.box h1{
+  float:left;
+  float-size:40px;
+  border-bottom: 20px solid #4caf50;
+  margin-bottom: 4px 0;
+  padding: 13px 0
+}
+.textbox{
+  width:100%;
+overflow: hidden ;
+font-size: 20px;
+padding:  80px 0;
+margin: 8px 0;
+border-bottom: 3px solid #4caf50;
+}
+.title-h1{
+  -webkit-text-fill-color: red;
+}
+.Submit{
+  width:100px;
+  right:10%;
+}
